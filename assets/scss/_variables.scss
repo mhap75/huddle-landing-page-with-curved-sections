@@ -1,0 +1,20 @@
+// Color
+$primary-Pink: hsl(322, 100%, 66%);
+$primary-Light-Pink: hsl(321, 100%, 78%);
+$primary-Light-Red: hsl(0, 100%, 63%);
+$natural-Very-Dark-Cyan: hsl(192, 100%, 9%);
+$natural-Very-Pale-Blue: hsl(207, 100%, 98%);
+$bg-section: rgb(246 251 255);
+
+// Font
+$ff-heading: 'Poppins', sans-serif;
+$ff-body: 'Open Sans', sans-serif;
+
+// Function
+@function set-font-weight($font-family) {
+  @if $font-family == $ff-heading {
+    @return 700;
+  } @else {
+    @return 400;
+  }
+}

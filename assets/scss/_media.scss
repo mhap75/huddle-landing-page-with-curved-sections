@@ -1,0 +1,53 @@
+@media (max-width: 1100px) {
+  .footer {
+    &_content {
+      gap: 5rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &_content {
+      flex-direction: column;
+    }
+
+    &_left {
+      order: 100;
+    }
+  }
+  .form_newsletter {
+    flex-direction: column;
+  }
+
+  .stat {
+    flex-direction: column;
+  }
+
+  .article {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    img {
+      width: 80%;
+    }
+  }
+
+  .section {
+    &_2, &_4 {
+      .left {
+        order: 100;
+      }
+    }
+  }
+  .header_main {
+    img {
+      width: 75%;
+    }
+  }
+
+  .btn-outline {
+    padding: 0.2rem 1rem;
+  }
+}
