@@ -37,7 +37,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS custom properties
 - Flexbox
-- CSS Grid
 - Responsive design
 
 ## Author
